@@ -4,4 +4,14 @@
     <string name="navigation_drawer_close"></string>
     <string name="password">Mật khẩu</string>
     <string name="username">Tên đăng nhập</string>
+    <string name="mins">" phút"</string>
+    <string name="Work_time">"Thời gian làm việc "</string>
+    <string name="Break">"Nghỉ "</string>
+    <string name="Long_break">"Nghỉ sau "</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="default_settings">Khôi phục cài đặt</string>
+    <string name="long_break_after">"Nghỉ dài sau "</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="breaks">lần</string>
 </resources>

@@ -10,6 +10,10 @@
     <string name="login">Login</string>
     <string name="username">Username</string>
     <string name="long_break_after">Long break after</string>
-    <string name="breaks">breaks</string>
+    <string name="Break">Break</string>
+    <string name="Work_time">Worktime</string>
+    <string name="Long_break">LongBreak</string>
+    <string name="mins">mins</string>
     <string name="default_settings">Default settings</string>
+    <string name="breaks">breaks</string>
 </resources>

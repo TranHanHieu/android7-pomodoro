@@ -56,9 +56,9 @@ public class SettingActivity extends AppCompatActivity {
             this.sb_break.setProgress(Integer.valueOf(settingCredentials.getBreaks()));
             this.sb_longBreak.setProgress(Integer.valueOf(settingCredentials.getLongBreak()));
         }
-        tv_workTime.setText("Work time " + sb_workTime.getProgress() + " mins");
-        tv_break.setText("Break " + sb_break.getProgress() + " mins");
-        tv_longBreak.setText("Long break " + sb_longBreak.getProgress() + " mins");
+        tv_workTime.setText(getResources().getString(R.string.Work_time) + sb_workTime.getProgress() + getResources().getString(R.string.mins));
+        tv_break.setText(getResources().getString(R.string.Break) + sb_break.getProgress() + getResources().getString(R.string.mins));
+        tv_longBreak.setText(getResources().getString(R.string.Long_break)+ sb_longBreak.getProgress() + getResources().getString(R.string.mins));
 
         bt_default.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,7 +72,7 @@ public class SettingActivity extends AppCompatActivity {
         sb_workTime.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                tv_workTime.setText("Work time " + i + " mins");
+                tv_workTime.setText(getResources().getString(R.string.Work_time) + sb_workTime.getProgress() + getResources().getString(R.string.mins));
                 SharedPrefs.getInstance().put(new SettingCredentials(String.valueOf(sb_workTime.getProgress()),
                         String.valueOf(sb_break.getProgress()),
                         String.valueOf(sb_longBreak.getProgress())));
@@ -92,7 +92,7 @@ public class SettingActivity extends AppCompatActivity {
         sb_break.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                tv_break.setText("Break " + i + " mins");
+                tv_break.setText(getResources().getString(R.string.Break) + sb_break.getProgress() + getResources().getString(R.string.mins));
                 SharedPrefs.getInstance().put(new SettingCredentials(String.valueOf(sb_workTime.getProgress()),
                         String.valueOf(sb_break.getProgress()),
                         String.valueOf(sb_longBreak.getProgress())));
@@ -113,7 +113,7 @@ public class SettingActivity extends AppCompatActivity {
         sb_longBreak.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                tv_longBreak.setText("Long break " + i + " mins");
+                tv_longBreak.setText(getResources().getString(R.string.Long_break)+ sb_longBreak.getProgress() + getResources().getString(R.string.mins));
                 SharedPrefs.getInstance().put(new SettingCredentials(String.valueOf(sb_workTime.getProgress()),
                         String.valueOf(sb_break.getProgress()),
                         String.valueOf(sb_longBreak.getProgress())));
