@@ -47,16 +47,14 @@ public class SettingActivity extends AppCompatActivity {
     }
 
     private void addListeners() {
-
+        sb_workTime.setProgress(10);
+        sb_break.setProgress(10);
+        sb_longBreak.setProgress(10);
         if (SharedPrefs.getInstance().getSettingCredentials() != null) {
             SettingCredentials settingCredentials = SharedPrefs.getInstance().getSettingCredentials();
             this.sb_workTime.setProgress(Integer.valueOf(settingCredentials.getWorkTime()));
             this.sb_break.setProgress(Integer.valueOf(settingCredentials.getBreaks()));
             this.sb_longBreak.setProgress(Integer.valueOf(settingCredentials.getLongBreak()));
-        }else {
-            sb_workTime.setProgress(10);
-            sb_break.setProgress(10);
-            sb_longBreak.setProgress(10);
         }
         tv_workTime.setText("Work time " + sb_workTime.getProgress() + " mins");
         tv_break.setText("Break " + sb_break.getProgress() + " mins");
