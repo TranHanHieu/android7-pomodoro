@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <View
+        android:id="@+id/v_color_task"
+        android:background="@drawable/shape_color"
+        android:layout_width="32dp"
+        android:scaleType="center"
+        android:layout_height="32dp"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/cb_color_task"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:button="@drawable/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
