@@ -8,6 +8,15 @@ public class Task {
     private String name;
     private String color;
     private float paymentPerHour;
+    private boolean isCheck;
+
+    public boolean isCheck() {
+        return isCheck;
+    }
+
+    public void setCheck(boolean check) {
+        isCheck = check;
+    }
 
     public Task(String name, String color, float paymentPerHour) {
         this.name = name;

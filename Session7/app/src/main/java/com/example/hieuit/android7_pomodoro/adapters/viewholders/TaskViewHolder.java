@@ -53,14 +53,19 @@ public class TaskViewHolder extends RecyclerView.ViewHolder {
 //        GradientDrawable gradientDrawable = (GradientDrawable) vTaskColor.getBackground();
 //        gradientDrawable.setColor(Color.parseColor(task.getColor()));
         //2 bind Task name
-        Utils.setSolidColor(vTaskColor,task.getColor());
+        Utils.setSolidColor(vTaskColor, task.getColor());
         tvTaskName.setText(task.getName());
+        if (task.isCheck()) {
+            ivChoose.setVisibility(View.VISIBLE);
+        } else {
+            ivChoose.setVisibility(View.INVISIBLE);
+        }
     }
 
-    public void setChoose(boolean choose){
-        if (choose){
+    public void setChoose(boolean choose) {
+        if (choose) {
             ivChoose.setVisibility(View.VISIBLE);
-        }else {
+        } else {
             ivChoose.setVisibility(View.INVISIBLE);
         }
     }

@@ -70,7 +70,6 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskViewHolder> {
                 //Log.d(TAG,String.format( "onClick: %s",position));
                 //send event to outside
                 if (taskItemClickListenner != null) {
-                    holder.setChoose(true);
                     taskItemClickListenner.onItemClick(task);
                 }
             }
@@ -87,11 +86,8 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskViewHolder> {
             @Override
             public void onClick(View view) {
 
-                Log.d(TAG, String.format("onClick: %s", position));
-
-                //display check
-                holder.setChoose(true);
-                notifyDataSetChanged();
+                holder.setChoose(!task.isCheck());
+                task.setCheck(!task.isCheck());
             }
         });
 
