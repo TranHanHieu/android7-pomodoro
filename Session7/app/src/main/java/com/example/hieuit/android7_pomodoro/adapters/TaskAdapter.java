@@ -22,7 +22,6 @@ import butterknife.OnClick;
  */
 
 public class TaskAdapter extends RecyclerView.Adapter<TaskViewHolder> {
-
     private static final String TAG = TaskAdapter.class.toString();
 
     public interface TaskItemClickListenner {
@@ -82,12 +81,17 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskViewHolder> {
                 }
             }
         });
-        holder.getIvChoose().setOnClickListener(new View.OnClickListener() {
+        holder.getvTaskColor().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                holder.setChoose(!task.isCheck());
-                task.setCheck(!task.isCheck());
+                if (!task.isCheck()) {
+                    holder.setChoose(true);
+                    task.setCheck(true);
+                }else {
+                    holder.setChoose(false);
+                    task.setCheck(false);
+                }
             }
         });
 

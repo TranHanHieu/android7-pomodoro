@@ -34,6 +34,14 @@ public class TaskViewHolder extends RecyclerView.ViewHolder {
     @BindView(R.id.iv_choose)
     ImageView ivChoose;
 
+    public View getvTaskColor() {
+        return vTaskColor;
+    }
+
+    public void setvTaskColor(View vTaskColor) {
+        this.vTaskColor = vTaskColor;
+    }
+
     public ImageButton getIbTimer() {
         return ibTimer;
     }
@@ -55,11 +63,6 @@ public class TaskViewHolder extends RecyclerView.ViewHolder {
         //2 bind Task name
         Utils.setSolidColor(vTaskColor, task.getColor());
         tvTaskName.setText(task.getName());
-        if (task.isCheck()) {
-            ivChoose.setVisibility(View.VISIBLE);
-        } else {
-            ivChoose.setVisibility(View.INVISIBLE);
-        }
     }
 
     public void setChoose(boolean choose) {
