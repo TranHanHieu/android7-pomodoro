@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //skipLoginIfPossible();
+        skipLoginIfPossible();
         setContentView(R.layout.activity_login);
         etUsername = (EditText) this.findViewById(R.id.et_username);
         etPassword = (EditText) findViewById(R.id.et_password);
@@ -106,7 +106,6 @@ public class LoginActivity extends AppCompatActivity {
                         onLoginSuccess();
                     }
                 }
-
                 Log.d(TAG, "onResponse");
             }
 
@@ -120,10 +119,14 @@ public class LoginActivity extends AppCompatActivity {
     private void onLoginSuccess() {
         SharedPrefs.getInstance().put(new LoginCredentials(username, password, accessToken));
         Toast.makeText(this, "Logged in", Toast.LENGTH_SHORT).show();
+        getAllTask();
+        gotoMainActivity();
+    }
+
+    public void getAllTask(){
         GetAllTask getAllTaskService = NetContext.instance.getRetrofit().create(GetAllTask.class);
-        String accessToken = "JWT" + SharedPrefs.getInstance().getAccessToken();
+        String accessToken = "JWT " + SharedPrefs.getInstance().getAccessToken();
         Call<List<Task>> getAllTask = getAllTaskService.getAllTask(accessToken);
-        Log.d(TAG, "skipLoginIfPossible: ");
         getAllTask.enqueue(new Callback<List<Task>>() {
             @Override
             public void onResponse(Call<List<Task>> call, Response<List<Task>> response) {
@@ -134,7 +137,6 @@ public class LoginActivity extends AppCompatActivity {
                         if (task != null) {
                             DbContext.instance.addTask(task);
                             Log.d(TAG, "onResponse hhhhhhh: " + response.body().toString());
-
                         }
                     }
                 }
@@ -147,11 +149,11 @@ public class LoginActivity extends AppCompatActivity {
                 Log.d(TAG, "onFailure: ");
             }
         });
-        gotoMainActivity();
     }
 
     private void skipLoginIfPossible() {
         if (SharedPrefs.getInstance().getAccessToken() != null) {
+            getAllTask();
             gotoMainActivity();
         }
     }
