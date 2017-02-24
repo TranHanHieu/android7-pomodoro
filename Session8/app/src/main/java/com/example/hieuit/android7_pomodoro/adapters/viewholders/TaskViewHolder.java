@@ -21,6 +21,7 @@ import butterknife.ButterKnife;
 
 public class TaskViewHolder extends RecyclerView.ViewHolder {
 
+    private static final String DEFAULT ="#FFD600" ;
     @BindView(R.id.v_task_color)
     public View vTaskColor;
 
@@ -44,7 +45,12 @@ public class TaskViewHolder extends RecyclerView.ViewHolder {
 //        GradientDrawable gradientDrawable = (GradientDrawable) vTaskColor.getBackground();
 //        gradientDrawable.setColor(Color.parseColor(task.getColor()));
         //2 bind Task name
-        Utils.setSolidColor(vTaskColor,task.getColor());
+        if (task.getColor()!=null) {
+            Utils.setSolidColor(vTaskColor, task.getColor());
+        }else {
+            Utils.setSolidColor(vTaskColor, DEFAULT);
+
+        }
         tvTaskName.setText(task.getName());
         if (task.isDone()){
             ivCheck.setVisibility(View.VISIBLE);
