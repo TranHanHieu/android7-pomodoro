@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">android7-pomodoro</string>
+    <string name="navigation_drawer_close"></string>
+    <string name="password">Mật khẩu</string>
+    <string name="username">Tên đăng nhập</string>
+</resources>
