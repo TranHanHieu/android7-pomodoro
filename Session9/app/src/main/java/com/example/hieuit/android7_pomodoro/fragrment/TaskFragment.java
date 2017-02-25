@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
@@ -119,9 +120,6 @@ public class TaskFragment extends Fragment {
 
     private void setupUI(View view) {
         ButterKnife.bind(this, view);
-        if (taskAdapter!=null) {
-            taskAdapter.notifyDataSetChanged();//update lại khi onBackPressed đc gọi
-        }
         taskAdapter = new TaskAdapter();
         rvTask.setAdapter(taskAdapter);
         rvTask.setLayoutManager(new LinearLayoutManager(this.getContext()));
@@ -161,7 +159,7 @@ public class TaskFragment extends Fragment {
                         //set message, title, and icon
                         .setTitle("Delete")
                         .setMessage("Do you want to Delete")
-                        .setIcon(R.drawable.ic_delete_white_24px)
+                        .setIcon(R.drawable.ic_delete_black_24px)
 
                         .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
 
@@ -175,7 +173,7 @@ public class TaskFragment extends Fragment {
                                             @Override
                                             public void onResponse(Call<TaskJson> call, Response<TaskJson> response) {
                                                 Log.d(TaskFragment.class.toString(), "delete ! ");
-                                                taskAdapter.notifyDataSetChanged();
+                                                downloadTasks();
                                             }
 
                                             @Override
