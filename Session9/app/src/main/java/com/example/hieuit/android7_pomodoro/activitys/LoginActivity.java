@@ -121,33 +121,6 @@ public class LoginActivity extends AppCompatActivity {
     private void onLoginSuccess() {
         SharedPrefs.getInstance().put(new LoginCredentials(username, password, accessToken));
         Toast.makeText(this, "Logged in", Toast.LENGTH_SHORT).show();
-        GetAllTask getAllTaskService = NetContext.instance.getRetrofit().create(GetAllTask.class);
-        String accessToken = "JWT " + SharedPrefs.getInstance().getAccessToken();
-        Call<List<Task>> getAllTask = getAllTaskService.getAllTask(accessToken);
-        Log.d(TAG, "skipLoginIfPossible: ");
-        getAllTask.enqueue(new Callback<List<Task>>() {
-            @Override
-            public void onResponse(Call<List<Task>> call, Response<List<Task>> response) {
-                Log.d(TAG, "onResponse hhhhhhh: ");
-
-                if (response.body() != null) {
-                    for (Task task : response.body()) {
-                        if (task != null) {
-                            DbContext.instance.addTask(task);
-                            Log.d(TAG, "onResponse hhhhhhh: " + response.body().toString());
-
-                        }
-                    }
-                }
-
-            }
-
-            @Override
-            public void onFailure(Call<List<Task>> call, Throwable t) {
-
-                Log.d(TAG, "onFailure: ");
-            }
-        });
         gotoMainActivity();
     }
 

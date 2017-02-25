@@ -7,20 +7,70 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class TaskJson {
-    @SerializedName("name")
-    private String name;
-    @SerializedName("color")
-    private String color;
-    @SerializedName("payment_per_hour")
-    private float paymentPerHour;
-    @SerializedName("done")
-    private boolean isDone;
 
-    public TaskJson(String name, String color, float paymentPerHour, boolean isDone) {
+    @SerializedName("local_id")
+    public String localId;
+    @SerializedName("payment_per_hour")
+    public double paymentPerHour;
+    @SerializedName("done")
+    public boolean done;
+    @SerializedName("id")
+    public String id;
+    @SerializedName("due_date")
+    public String dueDate;
+    @SerializedName("name")
+    public String name;
+    @SerializedName("color")
+    public String color;
+
+    public TaskJson(String localId, double paymentPerHour, boolean done, String id, String dueDate, String name, String color) {
+        this.localId = localId;
+        this.paymentPerHour = paymentPerHour;
+        this.done = done;
+        this.id = id;
+        this.dueDate = dueDate;
         this.name = name;
         this.color = color;
+    }
+
+    public String getLocalId() {
+        return localId;
+    }
+
+    public void setLocalId(String localId) {
+        this.localId = localId;
+    }
+
+    public double getPaymentPerHour() {
+        return paymentPerHour;
+    }
+
+    public void setPaymentPerHour(double paymentPerHour) {
         this.paymentPerHour = paymentPerHour;
-        this.isDone = isDone;
+    }
+
+    public boolean isDone() {
+        return done;
+    }
+
+    public void setDone(boolean done) {
+        this.done = done;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getDueDate() {
+        return dueDate;
+    }
+
+    public void setDueDate(String dueDate) {
+        this.dueDate = dueDate;
     }
 
     public String getName() {
@@ -39,29 +89,16 @@ public class TaskJson {
         this.color = color;
     }
 
-    public float getPaymentPerHour() {
-        return paymentPerHour;
-    }
-
-    public void setPaymentPerHour(float paymentPerHour) {
-        this.paymentPerHour = paymentPerHour;
-    }
-
-    public boolean isDone() {
-        return isDone;
-    }
-
-    public void setDone(boolean done) {
-        isDone = done;
-    }
-
     @Override
     public String toString() {
         return "TaskJson{" +
-                "name='" + name + '\'' +
-                ", color='" + color + '\'' +
+                "localId='" + localId + '\'' +
                 ", paymentPerHour=" + paymentPerHour +
-                ", isDone=" + isDone +
+                ", done=" + done +
+                ", id='" + id + '\'' +
+                ", dueDate='" + dueDate + '\'' +
+                ", name='" + name + '\'' +
+                ", color='" + color + '\'' +
                 '}';
     }
 }

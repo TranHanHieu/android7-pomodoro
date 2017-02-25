@@ -25,8 +25,17 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskViewHolder>{
         void onStart(Task task);
     }
 
+    public interface TaskLongClickListener{
+        void taskLongClick(Task task);
+    }
+
     private TaskItemClickListenner taskItemClickListenner;
     private TaskTimerListenner taskTimerListenner;
+    private TaskLongClickListener taskLongClickListener;
+
+    public void setTaskLongClickListener(TaskLongClickListener taskLongClickListener) {
+        this.taskLongClickListener = taskLongClickListener;
+    }
 
     public void setTaskTimerListenner(TaskTimerListenner taskTimerListenner) {
         this.taskTimerListenner = taskTimerListenner;
@@ -62,6 +71,16 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskViewHolder>{
                 if (taskItemClickListenner !=null){
                     taskItemClickListenner.onItemClick(task);
                 }
+            }
+        });
+
+        holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                if (taskLongClickListener!=null){
+                    taskLongClickListener.taskLongClick(task);
+                }
+                return false;
             }
         });
 

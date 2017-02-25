@@ -28,14 +28,25 @@ import com.example.hieuit.android7_pomodoro.databases.models.Task;
 import com.example.hieuit.android7_pomodoro.decorations.TaskColorDecoration;
 import com.example.hieuit.android7_pomodoro.fragrment.strategies.TaskAction;
 import com.example.hieuit.android7_pomodoro.networks.NetContext;
+import com.example.hieuit.android7_pomodoro.networks.jsonmodels.LoginBodyJson;
+import com.example.hieuit.android7_pomodoro.networks.jsonmodels.TaskJson;
 import com.example.hieuit.android7_pomodoro.networks.services.AddTask;
+import com.example.hieuit.android7_pomodoro.networks.services.TaskService;
 import com.example.hieuit.android7_pomodoro.settings.SharedPrefs;
+import com.google.gson.Gson;
+
+import java.util.List;
+import java.util.UUID;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import okhttp3.MediaType;
+import okhttp3.RequestBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+
+import static android.content.ContentValues.TAG;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -124,31 +135,50 @@ public class TaskDetailFragment extends Fragment {
                 task = new Task(taskName, color, paymentPerHour);
                 //1.create retrofit
                 //2.create service
-                AddTask addTaskService = NetContext.instance.getRetrofit().create(AddTask.class);
-                Call<Task> addTask = addTaskService.addTask("application/json", "JWT " + SharedPrefs.getInstance().getAccessToken(), task);
-                addTask.enqueue(new Callback<Task>() {
-                    @Override
-                    public void onResponse(Call<Task> call, Response<Task> response) {
-                        Log.d(TaskDetailFragment.class.toString(), "onResponse: " + response.body().toString());
-                        taskAction.excute(task);
-                    }
+                String localId = UUID.randomUUID().toString();
+                TaskJson taskJson = new TaskJson(localId,paymentPerHour,false,null,null,taskName,color);
+                NetContext.instance
+                        .create(TaskService.class)
+                        .addNewTask(taskJson)
+                        .enqueue(new Callback<List<TaskJson>>() {
+                            @Override
+                            public void onResponse(Call<List<TaskJson>> call, Response<List<TaskJson>> response) {
+                                taskAction.excute(task);
+                                Log.d(TaskDetailFragment.class.toString(), String.format("onResponse: %s", response.body()));
+                            }
 
-                    @Override
-                    public void onFailure(Call<Task> call, Throwable t) {
+                            @Override
+                            public void onFailure(Call<List<TaskJson>> call, Throwable t) {
 
-                    }
-                });
-//                //data to Json
-//                MediaType jsonType = MediaType.parse("application/json");
-//                String taskJson = (new Gson().toJson(new Task(task.getName(),task.getColor(),task.getPaymentPerHour())));
-//                RequestBody taskBoy = RequestBody.create(jsonType,taskJson);
-                //3.call
+                            }
+                        });
             } else {
                 //edit
                 task.setName(taskName);
                 task.setColor(color);
                 task.setPaymentPerHour(paymentPerHour);
                 taskAction.excute(task);
+                MediaType jsonType = MediaType.parse("application/json");
+                String taskJson = (new Gson().toJson(new TaskJson(task.getLocalId(),paymentPerHour,task.isDone(),
+                        null,null,taskName,color)));
+                RequestBody taskBody = RequestBody.create(jsonType, taskJson);
+                NetContext.instance
+                        .create(TaskService.class)
+                        .editATask(task.getLocalId(),taskBody)
+                        .enqueue(new Callback<TaskJson>() {
+                            @Override
+                            public void onResponse(Call<TaskJson> call, Response<TaskJson> response) {
+
+                                Log.d(TaskDetailFragment.class.toString(), String.format("onOptionsItemSelected: %s", task.getLocalId()));
+                                Log.d(TaskDetailFragment.class.toString(), String.format("onResponse: %s", response.body()));
+                            }
+
+                            @Override
+                            public void onFailure(Call<TaskJson> call, Throwable t) {
+                                Log.d(TAG, "onFailure: ");
+                            }
+                        });
+
             }
             getActivity().onBackPressed();
 

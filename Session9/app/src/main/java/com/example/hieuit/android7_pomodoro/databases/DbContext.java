@@ -2,6 +2,8 @@ package com.example.hieuit.android7_pomodoro.databases;
 
 import com.example.hieuit.android7_pomodoro.databases.models.Task;
 import com.example.hieuit.android7_pomodoro.databases.models.TaskColor;
+import com.example.hieuit.android7_pomodoro.networks.NetContext;
+import com.example.hieuit.android7_pomodoro.networks.services.TaskService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +36,11 @@ public class DbContext {
         return tasks;
     }
 
-//    public List<TaskColor> allColors(){
+    public void cleanAlls(){
+        tasks.clear();
+    }
+
+    //    public List<TaskColor> allColors(){
 //        //1 create aray list
 //        ArrayList<TaskColor > colorTasks = new ArrayList<>();
 //        //2. add some task and return

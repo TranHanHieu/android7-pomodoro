@@ -2,6 +2,8 @@ package com.example.hieuit.android7_pomodoro.databases.models;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.UUID;
+
 /**
  * Created by Hieu It on 2/11/2017.
  */
@@ -15,12 +17,32 @@ public class Task {
     private float paymentPerHour;
     @SerializedName("done")
     private boolean isDone;
+    @SerializedName("local_id")
+    private String localId;
+
+    public Task(String name, String color, float paymentPerHour, boolean isDone, String localId) {
+        this.name = name;
+        this.color = color;
+        this.paymentPerHour = paymentPerHour;
+        this.isDone = isDone;
+        this.localId =localId;
+    }
+
+    public String getLocalId() {
+        return localId;
+    }
+
+    public void setLocalId(String localId) {
+        this.localId = localId;
+    }
 
     public Task(String name, String color, float paymentPerHour) {
         this.name = name;
         this.isDone = false;
         this.color = color;
         this.paymentPerHour = paymentPerHour;
+        this.localId = UUID.randomUUID().toString();
+
     }
 
     public float getPaymentPerHour() {
@@ -29,12 +51,6 @@ public class Task {
 
     public void setPaymentPerHour(float paymentPerHour) {
         this.paymentPerHour = paymentPerHour;
-    }
-
-    public Task(String name, String color) {
-        this.name = name;
-        this.color = color;
-        this.isDone = false;
     }
 
     public boolean isDone() {
