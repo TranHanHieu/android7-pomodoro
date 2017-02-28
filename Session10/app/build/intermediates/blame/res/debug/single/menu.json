@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session9\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_edit_task.xml",
+        "source": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session9\\app\\src\\main\\res\\menu\\menu_edit_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session9\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session9\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session10\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session10\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session10\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_edit_task.xml",
+        "source": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session10\\app\\src\\main\\res\\menu\\menu_edit_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session9\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session9\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session10\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session10\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]
