@@ -1,6 +1,9 @@
 package com.example.hieuit.android7_pomodoro.activitys;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -49,6 +52,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //skipLoginIfPossible();
+        skipLoginOffline();
         setContentView(R.layout.activity_login);
         etUsername = (EditText) this.findViewById(R.id.et_username);
         etPassword = (EditText) findViewById(R.id.et_password);
@@ -70,6 +74,32 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void skipLoginOffline(){
+        if (isOnline()){
+            List<Task> taskList = DbContext.instance.getTaskList();
+            for (Task task : taskList) {
+                Task newTask = new Task(
+                        task.getName(),
+                        task.getColor(),
+                        (float)task.getPaymentPerHour(),
+                        task.isDone(),
+                        task.getLocalId()
+
+                );
+                DbContext.instance.cleanAlls();
+                DbContext.instance.addTask(newTask);
+            }
+            gotoMainActivity();
+        }
+    }
+
+    public boolean isOnline() {
+        ConnectivityManager cm =
+                (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        return netInfo != null && netInfo.isConnectedOrConnecting();
     }
 
     private void sendLogin(String username, String password) {

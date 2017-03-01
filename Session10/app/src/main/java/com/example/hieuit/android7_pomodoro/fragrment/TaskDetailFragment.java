@@ -119,9 +119,9 @@ public class TaskDetailFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.mn_ok) {
             //1.get data UI
-            String taskName = etName.getText().toString();
+            final String taskName = etName.getText().toString();
             float paymentPerHour=0;
-            String color = colorAdapter.getSelectedColor();
+            final String color = colorAdapter.getSelectedColor();
             try {
                 paymentPerHour = Float.parseFloat(etPayment.getText().toString());
             } catch (NumberFormatException e) {
@@ -144,6 +144,7 @@ public class TaskDetailFragment extends Fragment {
                             @Override
                             public void onResponse(Call<List<TaskJson>> call, Response<List<TaskJson>> response) {
                                 taskAction.excute(task);
+                                DbContext.instance.addOrUpdateRealm(task);
                                 Log.d(TaskDetailFragment.class.toString(), String.format("onResponse: %s", response.body()));
                             }
 
@@ -159,7 +160,7 @@ public class TaskDetailFragment extends Fragment {
                 task.setPaymentPerHour(paymentPerHour);
                 taskAction.excute(task);
                 MediaType jsonType = MediaType.parse("application/json");
-                String taskJson = (new Gson().toJson(new TaskJson(task.getLocalId(),paymentPerHour,task.isDone(),
+                final String taskJson = (new Gson().toJson(new TaskJson(task.getLocalId(),paymentPerHour,task.isDone(),
                         null,null,taskName,color)));
                 RequestBody taskBody = RequestBody.create(jsonType, taskJson);
                 NetContext.instance
@@ -168,7 +169,7 @@ public class TaskDetailFragment extends Fragment {
                         .enqueue(new Callback<TaskJson>() {
                             @Override
                             public void onResponse(Call<TaskJson> call, Response<TaskJson> response) {
-
+                                DbContext.instance.addOrUpdateRealm(task);
                                 Log.d(TaskDetailFragment.class.toString(), String.format("onOptionsItemSelected: %s", task.getLocalId()));
                                 Log.d(TaskDetailFragment.class.toString(), String.format("onResponse: %s", response.body()));
                             }

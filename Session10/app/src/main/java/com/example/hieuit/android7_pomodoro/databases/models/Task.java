@@ -24,6 +24,10 @@ public class Task extends RealmObject{
     @PrimaryKey
     private String localId;
 
+    public Task() {
+        this(null,null,-1,false,null);
+    }
+
     public Task(String name, String color, float paymentPerHour, boolean isDone, String localId) {
         this.name = name;
         this.color = color;

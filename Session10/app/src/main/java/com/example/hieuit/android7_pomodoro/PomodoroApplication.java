@@ -22,6 +22,7 @@ public class PomodoroApplication extends Application {
         Log.d(TAG, "onCreate: ");
         SharedPrefs.init(this);
 
+        DbContext.instance.setRealmContext(this);
         for (Task task  : DbContext.instance.allTasks()) {
             Log.d(TAG,String.format("onCreate : %s",task));
 

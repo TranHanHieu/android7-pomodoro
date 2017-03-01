@@ -19,14 +19,19 @@ import io.realm.Realm;
 public class DbContext {
 
     private Realm realm;
-    private Context context;
 
     public static final DbContext instance = new DbContext();
     private List<Task > tasks;
 
-    public DbContext() {
+    public void setRealmContext(Context context) {
         realm.init(context);
         realm = Realm.getDefaultInstance();
+    }
+
+    public void deleteRealm(Task task){
+        realm.beginTransaction();
+        realm.delete(task.getClass());
+        realm.commitTransaction();
     }
 
     public Task addOrUpdateRealm(Task task){
@@ -36,8 +41,8 @@ public class DbContext {
         return addTask;
     }
 
-    public void setContext(Context context) {
-        this.context = context;
+    public List<Task> getTaskList(){
+        return realm.where(Task.class).findAll();
     }
 
     public void setTasks(List<Task> tasks) {

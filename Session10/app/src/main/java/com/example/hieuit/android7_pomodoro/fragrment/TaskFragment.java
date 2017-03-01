@@ -92,6 +92,12 @@ public class TaskFragment extends Fragment {
 
                                 );
                                 DbContext.instance.addTask(newTask);
+                                DbContext.instance.addOrUpdateRealm(newTask);
+                                List<Task> taskList = DbContext.instance.getTaskList();
+                                for (Task task : taskList) {
+                                    Log.d(TaskFragment.class.toString(), String.format("onResponse: %s", task.toString()));
+                                }
+
                                 taskAdapter.notifyDataSetChanged();//báp adapter cập nhật số luong item
                             }
 
@@ -173,6 +179,7 @@ public class TaskFragment extends Fragment {
                                             @Override
                                             public void onResponse(Call<TaskJson> call, Response<TaskJson> response) {
                                                 Log.d(TaskFragment.class.toString(), "delete ! ");
+                                                DbContext.instance.deleteRealm(task);
                                                 downloadTasks();
                                             }
 
