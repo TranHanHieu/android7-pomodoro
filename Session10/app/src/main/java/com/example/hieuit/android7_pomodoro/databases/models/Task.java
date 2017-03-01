@@ -96,6 +96,7 @@ public class Task extends RealmObject{
                 ", color='" + color + '\'' +
                 ", paymentPerHour=" + paymentPerHour +
                 ", isDone=" + isDone +
+                ", localId='" + localId + '\'' +
                 '}';
     }
 }

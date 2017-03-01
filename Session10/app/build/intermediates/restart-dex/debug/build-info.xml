@@ -5,45 +5,39 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="114941191310660"
+    timestamp="127498673191268"
     token="5311039068799670554"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1893" />
+        duration="2205" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="59" />
+        duration="46" />
     <task
         name="verifier"
-        duration="9" />
+        duration="2" />
 
     <artifact
         location="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
         type="DEX" />
-    <artifact
-        location="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
 
     <build
-        timestamp="113808198516709"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="126696725534260"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="114941191310660"
+        timestamp="127498673191268"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
             type="DEX" />
     </build>
 

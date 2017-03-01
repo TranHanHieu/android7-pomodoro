@@ -79,6 +79,7 @@ public class LoginActivity extends AppCompatActivity {
     public void skipLoginOffline(){
         if (isOnline()){
             List<Task> taskList = DbContext.instance.getTaskList();
+            DbContext.instance.cleanAlls();
             for (Task task : taskList) {
                 Task newTask = new Task(
                         task.getName(),
@@ -88,7 +89,6 @@ public class LoginActivity extends AppCompatActivity {
                         task.getLocalId()
 
                 );
-                DbContext.instance.cleanAlls();
                 DbContext.instance.addTask(newTask);
             }
             gotoMainActivity();

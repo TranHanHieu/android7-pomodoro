@@ -1,6 +1,7 @@
 package com.example.hieuit.android7_pomodoro.databases;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.example.hieuit.android7_pomodoro.databases.models.Task;
 import com.example.hieuit.android7_pomodoro.databases.models.TaskColor;
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import io.realm.Realm;
+import io.realm.RealmResults;
 
 /**
  * Created by Hieu It on 2/11/2017.
@@ -29,8 +31,10 @@ public class DbContext {
     }
 
     public void deleteRealm(Task task){
+        RealmResults<Task> results = realm.where(Task.class).equalTo("localId",task.getLocalId()).findAll();
+        Log.d(DbContext.class.toString(), String.format("deleteRealm: %s", results.toString()));
         realm.beginTransaction();
-        realm.delete(task.getClass());
+        results.deleteAllFromRealm();
         realm.commitTransaction();
     }
 
@@ -43,10 +47,6 @@ public class DbContext {
 
     public List<Task> getTaskList(){
         return realm.where(Task.class).findAll();
-    }
-
-    public void setTasks(List<Task> tasks) {
-        this.tasks = tasks;
     }
 
     public List<Task> allTasks(){
