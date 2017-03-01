@@ -1,6 +1,7 @@
 package com.example.hieuit.android7_pomodoro.adapters;
 
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -61,6 +62,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskViewHolder>{
     public void onBindViewHolder(TaskViewHolder holder, final int position) {
 
         //1. get data bases on position
+        Log.d(TaskAdapter.class.toString(), String.format("onBindViewHolder: %s", position));
         final Task task = DbContext.instance.allTasks().get(position);
         //2.  Bind data into view
         holder.bind(task);
