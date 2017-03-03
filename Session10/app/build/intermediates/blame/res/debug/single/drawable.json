@@ -172,16 +172,16 @@
         "source": "/Users/hieutran/android7-pomodoro/Session10/app/src/main/res/drawable/check_box.xml"
     },
     {
-        "merged": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_icon_background.xml"
+        "merged": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/merged/debug/drawable/shape_button.xml",

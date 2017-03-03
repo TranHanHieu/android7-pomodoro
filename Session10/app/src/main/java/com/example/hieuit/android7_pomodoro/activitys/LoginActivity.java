@@ -54,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //skipLoginIfPossible();
-        //skipLoginOffline();
+        skipLoginOffline();
         setContentView(R.layout.activity_login);
         etUsername = (EditText) this.findViewById(R.id.et_username);
         etPassword = (EditText) findViewById(R.id.et_password);

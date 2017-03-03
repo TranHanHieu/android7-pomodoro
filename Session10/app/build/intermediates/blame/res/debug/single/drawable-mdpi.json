@@ -16,12 +16,12 @@
         "source": "/Users/hieutran/android7-pomodoro/Session10/app/build/generated/res/pngs/debug/drawable-mdpi/checkboxselected.png"
     },
     {
-        "merged": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_delete_black_24px.png",
-        "source": "/Users/hieutran/android7-pomodoro/Session10/app/build/generated/res/pngs/debug/drawable-mdpi/ic_delete_black_24px.png"
-    },
-    {
         "merged": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_add_black_24px.png",
         "source": "/Users/hieutran/android7-pomodoro/Session10/app/build/generated/res/pngs/debug/drawable-mdpi/ic_add_black_24px.png"
+    },
+    {
+        "merged": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_delete_black_24px.png",
+        "source": "/Users/hieutran/android7-pomodoro/Session10/app/build/generated/res/pngs/debug/drawable-mdpi/ic_delete_black_24px.png"
     },
     {
         "merged": "/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/merged/debug/drawable-mdpi/uncheckbox.png",

@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="c6e8953eef6bfdbafa45f5bcf04bd41f99068d20">
+        sha1="1721163579f6e29670358a9f13a6b4bcd0a75ec4">
         <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4b72f0ee843318038d0cfaf72f606a9e7c21150a/classes.dex" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="5f15ed616cad7b95553aed4dd0d93f549247215e">
+        sha1="bb39dd96f4108606d9c1eae43113b399696b5156">
         <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8060d9002936096e74217b8f0813c0f63dfbad7b/classes.dex" />
     </item>
     <item

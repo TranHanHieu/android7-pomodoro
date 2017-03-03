@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Mar 03 13:35:41 ICT 2017
+#Fri Mar 03 13:54:46 ICT 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
 14.set=ANDROID_RESOURCE
