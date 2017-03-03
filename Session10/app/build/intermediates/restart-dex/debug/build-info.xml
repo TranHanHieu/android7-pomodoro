@@ -5,39 +5,45 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="170657289232867"
-    token="5311039068799670554"
+    timestamp="9162156949563"
+    token="6556148858466120429"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2005" />
+        duration="1934" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="112" />
+        duration="67" />
     <task
         name="verifier"
         duration="1" />
 
     <artifact
-        location="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        location="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="170450748173644"
+        timestamp="9014248734365"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\outputs\apk\app-debug.apk"
+            location="/Users/hieutran/android7-pomodoro/Session10/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="170657289232867"
+        timestamp="9162156949563"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            location="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
             type="DEX" />
     </build>
 
