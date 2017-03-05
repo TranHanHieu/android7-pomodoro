@@ -15,4 +15,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="add_task">Add new task</string>
     <string name="timer_fragment">Timer</string>
+    <string name="edit_task">Edit task</string>
+    <string name="delete">Delete</string>
+    <string name="edit_success">Edit success !</string>
+    <string name="edit_failed">Edit failed !</string>
+    <string name="add_failed">Add failed !</string>
+    <string name="add_success">Add success !</string>
+    <string name="deleted">Deleted !</string>
+    <string name="delete_failed">Delete failed !</string>
 </resources>

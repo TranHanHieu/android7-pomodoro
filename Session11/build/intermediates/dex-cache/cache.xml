@@ -3,525 +3,228 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_f649dab3d51f0d6b7986791ed497d39fe0d80e1e\classes.dex" />
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_8ba80f90a9fb541ae1b0bcbdebd563ba989534cb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_bb35bba4a1fc66b9bd245107e396738e59b18c5e\classes.dex" />
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_371c8036eeb73f6995776015baf7bceccdf766ec/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_d14f17791663fd15dd32b818a840826276e370c5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_b11e97a63dd30f7f5374c98e1456233f9cecd220\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_aabce4853d2d0ab4bb20c3beee93058a134db4c5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_b1f5198a7d651510452548ca3aea45b53edc3e4e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_dad026179977406872be3db5bd7dc09491497cca\classes.dex" />
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_df942d19246bdc25ee66c538a9c50e68ce6b6903/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_df4a6795b0fef0a308947f4b040811dae29dc491\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_ae90e555c74755c6aa69f5847656402ae8b73a67\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_a69a58fcd2baf6edc98f732fc084c80af927a0d4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_0040e70b7b7174bab2bb9c01bd723c22a9f088a5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.5.1_6cd863d21b95050a888b330ef9bc1ff67f265525\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_7bb33c09dc77646739acccfb59fc5fb2f3c84991\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d4823cdad4748e4fa4b800a586cee5c93ae3f979">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ee8e595d6ad68116d0c8ff8da60dc7954415232a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\io.realm\realm-android-library\2.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="205155180b7747a96c076484ba0014e4bcacb33d">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.realm-realm-android-library-2.3.1_171940c62b958302d87e8dd7df1dcc04eb82f64d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_7e4d121e44d766208912f7724cdecbc46a188d6f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="58d49749994de3744509d2ec394e47e2d32c605c">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0cfe6ffe2876707d37b4ca8fd7abd378b80e6e3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_63adc788588cadc92f6c6a381169cac9ca39b6f6\classes.dex" />
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_446f87e82e2a8f43b523ccf0d5381c24b8ffeab1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d3f0c611feeed571d9674c3e26a6eb0210642120">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_08ae27820ea2ad9328bbbe95a36e8edb0beaceb1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.github.lzyzsd\circleprogress\1.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f200454bd6851899efe021d2a4673959986edaed">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.lzyzsd-circleprogress-1.2.1_751d6c4d9c243f437e6ca53c85ee5a90bf8938d7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="cfba0441420dbeb7b170addc29a0aba1677c277a">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_25e1cbb1a1fce4ad8412440ae9dc2825d50ffac5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_3a481f4a107bf215ebdd66e6c9b7f3335c145328\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_1465a57df2db3d0095750e503ac35b5cf1d2400a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_93025b79fceda61468e5d3c61eb8b9a2e1b7069e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_8d1c608e4566c1fa806067ce510743359748058d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_759d3345d4d7eeafcca4c2f3ecccd1e0c8650683\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_89103528088bcb9ce364be44cbf93d0c49bd88c6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.getkeepsafe.relinker\relinker\1.2.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.getkeepsafe.relinker-relinker-1.2.2_6582ed17748b98d0aff064cd87f88f778b928204\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_fbb74f0709f7ac2c62e054fcdb7c470d22d08bb3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f253644395e287b149dc309421ce24c2a75f5213">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3bd4de5125ccb36170016f784689da0118bd532a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_0550a2e3f78bf2a190a5e64167cefe438c766414\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.5.1_5cb2f9872a0c8d71e676775953537c5244546b50\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.getkeepsafe.relinker\relinker\1.2.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.getkeepsafe.relinker-relinker-1.2.2_44ed58df755516d32b91d6436ff36a38b5a79b62\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-3.0.0_5871981a78a597c79bf2550efa0ca4c3ea27cbd7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_c630b677f353bc510172d2008bf3f5857cb0f169\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\.gradle\caches\modules-2\files-2.1\io.realm\realm-annotations\2.3.1\1c1c75a7e1dfee58c51822987dc658f93e036c81\realm-annotations-2.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1c1c75a7e1dfee58c51822987dc658f93e036c81">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\realm-annotations-2.3.1_882f12764fe4b1f65ef1baee9ad08685fcf95002\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_48613d4f78c4a90d90cb7d2530195a1c41136115\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_52b4274d03f384cef5a3d904e353f15a57187e1e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.5.1_d33bd6174cdadca7be1c0a4c80a644db72145293\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_63d4fd565478ef3440d08fec6c26a7501af93e8d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_3e84eccc0f8e104e9c6b0b70c0be7200ce091290\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_a9f39eb5c37fc461815361f2e760f0a63eca1bdf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.5.1_c647bad12bbffbfce0e28133a30dd7f6f09b1d27\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_f2090989bdb7243c87d042cdc556eec52bcd61b6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_b39e003d7546c1a94158fe3b1c4fd3d1cf73816c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_fe56844a4dde2bcbcc5b58515f7a1f05ae56115a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_f6ced1fd8b5476fdc45205ccb4d1fe5637d2fda8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_57b8b15380efa5b569998dcfae5556fa1716ffed\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_899c93e7990fe0eb46fdc55e27405b3585da8cb1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_3afe0a4eee82993601d00b1ab263050f813562f2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_1016560e3d67d2d20d3ba98ce4a32317267d89c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_a8a51367bcf78ccc3c7ed6ff4dfd3029304de8a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_9879bf93294378b75b36320084dfa47d08700de7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_b1839440b8863a49e24f15244b70e89696a4b86a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\exploded-aar\io.realm\realm-android-library\2.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="205155180b7747a96c076484ba0014e4bcacb33d">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.realm-realm-android-library-2.3.1_05030ba2ea9cbb95ede3051fe2db65f0a8bf1ad3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="4ff44392fc29f938781f063987ee1c4789cedc99">
-        <dex dex="C:\Users\Hieu It\Documents\Androi7-LT\Session10\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3fc266c5a4cd0df4b2e2e7a18a553c7d87c209dd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Hieu It\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jar="/Users/hieutran/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_023476f278ffab41d426d44f5d976865f6bb561f\classes.dex" />
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_41e3bd80d36b57a2874397982df1e37d37b00788/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jar="/Users/hieutran/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.3.1/1c1c75a7e1dfee58c51822987dc658f93e036c81/realm-annotations-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1c1c75a7e1dfee58c51822987dc658f93e036c81">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-2.3.1_7fab1a18835ee7add4a089aefb34ddec25ac6952/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_d81835def0be833fda16d8686f607d16b7282310/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_a07cd4d94022144e2cb4a329f246ffe2e4d9e647/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_fa8caef8f8f551849491069f9cc4d8c8a4d72430/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.5.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.5.1_2f52f669a0f5022039fda224769edd3476975412/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.getkeepsafe.relinker-relinker-1.2.2_e7fddc1f7e57401adc95cb9952c98b106a5b2d2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_7696bbdeb040ac0f822f1cbb057222e6c3c05d91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_cfa798f94e8029a379c6257eac73446264f10866/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_3b7ec6fbf0762050a16265d3e63ee94467bebe9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5662e925ad389b866db44b45753b13952205c1c0">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4b72f0ee843318038d0cfaf72f606a9e7c21150a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="baa83c09f13003fa6aefaf15cfde1da555835b1a">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8060d9002936096e74217b8f0813c0f63dfbad7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_41c5cbfecf86db9f8e1784853d247496413bfa8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="205155180b7747a96c076484ba0014e4bcacb33d">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.realm-realm-android-library-2.3.1_8efc93a632e77e8305fd9079b839ccb9aa776e7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_e4ca818f0dea16cbda4ebc5178ea92e218ffe37a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_8443455e2cbc64b4f248013aa3821c6dc23fe154/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_9fbf6b7b1365df9601aff1955f706e2478d089dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.5.1_2b20027f437888ad6c8e4dab441cda0ce6e55e33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="C:\Users\Hieu It\Documents\android7-pomodoro\Session9\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_cff0c656f17ac77710309db76418bdc4de1fb0be\classes.dex" />
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_d3693b79c97a1dec2a3295d63c3d45478a1c4310/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_c49605e58b394a4ee28e65ead9c83c173b5a8cf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_467ea1138fcac43bd1673816846c6c0e4554ca21/classes.dex" />
     </item>
 
 </items>

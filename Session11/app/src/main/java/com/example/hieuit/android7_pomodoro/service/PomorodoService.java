@@ -9,7 +9,6 @@ import android.util.Log;
 
 import com.example.hieuit.android7_pomodoro.events.TimerCommandEvent;
 
-import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 
 /**
@@ -22,14 +21,14 @@ public class PomorodoService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        EventBus.getDefault().register(this);
+        //EventBus.getDefault().register(this);
 
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        EventBus.getDefault().unregister(this);
+        //EventBus.getDefault().unregister(this);
 
     }
 

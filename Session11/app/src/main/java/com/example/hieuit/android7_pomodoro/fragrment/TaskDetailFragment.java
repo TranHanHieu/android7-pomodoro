@@ -18,6 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.hieuit.android7_pomodoro.R;
 import com.example.hieuit.android7_pomodoro.activitys.TaskActivity;
@@ -64,6 +65,7 @@ public class TaskDetailFragment extends Fragment {
     private String title;
     private Task task;
     private TaskAction taskAction;
+    private Context context;
 
     public TaskDetailFragment() {
         // Required empty public constructor
@@ -87,13 +89,9 @@ public class TaskDetailFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_task_detail, container, false);
+        context = this.getContext();
         setupUI(view);
         return view;
-    }
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
     }
 
     private void setupUI(View view) {
@@ -144,13 +142,20 @@ public class TaskDetailFragment extends Fragment {
                             @Override
                             public void onResponse(Call<List<TaskJson>> call, Response<List<TaskJson>> response) {
                                 taskAction.excute(task);
-                                DbContext.instance.addOrUpdateRealm(task);
+                                Log.d(TaskDetailFragment.class.toString(), "onResponse: ");
                                 Log.d(TaskDetailFragment.class.toString(), String.format("onResponse: %s", response.body()));
+                                DbContext.instance.addOrUpdateRealm(task);
+                                Toast.makeText(context,
+                                        R.string.add_success,Toast.LENGTH_SHORT)
+                                        .show();
                             }
 
                             @Override
                             public void onFailure(Call<List<TaskJson>> call, Throwable t) {
-
+                                Log.d(TaskDetailFragment.class.toString(), "onFailure: ");
+                                Toast.makeText(context,
+                                        R.string.add_failed,Toast.LENGTH_SHORT)
+                                        .show();
                             }
                         });
             } else {
@@ -170,6 +175,9 @@ public class TaskDetailFragment extends Fragment {
                             @Override
                             public void onResponse(Call<TaskJson> call, Response<TaskJson> response) {
                                 DbContext.instance.addOrUpdateRealm(task);
+                                Toast.makeText(context,
+                                        R.string.edit_success,Toast.LENGTH_SHORT)
+                                        .show();
                                 Log.d(TaskDetailFragment.class.toString(), String.format("onOptionsItemSelected: %s", task.getLocalId()));
                                 Log.d(TaskDetailFragment.class.toString(), String.format("onResponse: %s", response.body()));
                             }
@@ -177,6 +185,9 @@ public class TaskDetailFragment extends Fragment {
                             @Override
                             public void onFailure(Call<TaskJson> call, Throwable t) {
                                 Log.d(TAG, "onFailure: ");
+                                Toast.makeText(context,
+                                        R.string.edit_failed,Toast.LENGTH_SHORT)
+                                        .show();
                             }
                         });
 

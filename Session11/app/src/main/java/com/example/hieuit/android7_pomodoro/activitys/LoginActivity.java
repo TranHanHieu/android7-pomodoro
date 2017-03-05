@@ -1,5 +1,6 @@
 package com.example.hieuit.android7_pomodoro.activitys;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
@@ -47,6 +48,7 @@ public class LoginActivity extends AppCompatActivity {
     private String username;
     private String password;
     private String accessToken;
+    private ProgressDialog dialogLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -111,6 +113,8 @@ public class LoginActivity extends AppCompatActivity {
 //                .addConverterFactory(GsonConverterFactory.create())
 //                .build();
         //2.create service
+        dialogLogin = ProgressDialog.show(LoginActivity.this,"Login","Please wait...",true);
+
         LoginService loginService = NetContext.instance.createLoginService();
 
 
@@ -136,6 +140,7 @@ public class LoginActivity extends AppCompatActivity {
                     Log.d(TAG, "onResponse: oh year");
                     if (response.code() == 200) {
                         accessToken = loginResponseJson.getAccessToken();
+                        dialogLogin.dismiss();
                         onLoginSuccess();
                     }
                 }
@@ -146,6 +151,10 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<LoginResponseJson> call, Throwable t) {
                 Log.d(TAG, "onFailure");
+                Toast.makeText(LoginActivity.this,
+                        "Network not available", Toast.LENGTH_LONG)
+                        .show();
+                dialogLogin.dismiss();
             }
         });
     }

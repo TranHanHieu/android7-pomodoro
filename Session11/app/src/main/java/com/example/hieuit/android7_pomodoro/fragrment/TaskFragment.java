@@ -2,6 +2,7 @@ package com.example.hieuit.android7_pomodoro.fragrment;
 
 
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -17,8 +18,10 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.example.hieuit.android7_pomodoro.R;
+import com.example.hieuit.android7_pomodoro.activitys.LoginActivity;
 import com.example.hieuit.android7_pomodoro.activitys.TaskActivity;
 import com.example.hieuit.android7_pomodoro.adapters.TaskAdapter;
 import com.example.hieuit.android7_pomodoro.databases.DbContext;
@@ -54,6 +57,7 @@ import static android.content.ContentValues.TAG;
  * A simple {@link Fragment} subclass.
  */
 public class TaskFragment extends Fragment {
+    private ProgressDialog dialogDownLoad;
 
     @BindView(R.id.rv_task)
     RecyclerView rvTask;
@@ -77,6 +81,7 @@ public class TaskFragment extends Fragment {
     }
 
     private void downloadTasks() {
+        dialogDownLoad = ProgressDialog.show(this.getContext(),"","Loading...Please wait...");
         NetContext.instance
                 .create(TaskService.class)
                 .getAllTask()
@@ -98,10 +103,10 @@ public class TaskFragment extends Fragment {
                                 DbContext.instance.addTask(newTask);
                                 DbContext.instance.addOrUpdateRealm(newTask);
                                 List<Task> taskList = DbContext.instance.getTaskList();
-                                for (Task task : taskList) {
-                                    Log.d(TaskFragment.class.toString(), String.format("onResponse: %s", task.toString()));
-                                }
-
+//                                for (Task task : taskList) {
+//                                    Log.d(TaskFragment.class.toString(), String.format("onResponse: %s", task.toString()));
+//                                }
+                                dialogDownLoad.hide();
                                 taskAdapter.notifyDataSetChanged();//báp adapter cập nhật số luong item
                             }
 
@@ -112,6 +117,10 @@ public class TaskFragment extends Fragment {
                     @Override
                     public void onFailure(Call<List<TaskJson>> call, Throwable t) {
                         Log.d(TAG, "onFailure: ");
+                        dialogDownLoad.dismiss();
+                        Toast.makeText(TaskFragment.this.getContext(),
+                                "Network not available. Unable to load data !", Toast.LENGTH_LONG)
+                                .show();
                     }
                 });
     }
@@ -138,7 +147,7 @@ public class TaskFragment extends Fragment {
             public void onItemClick(Task task) {
 
                 TaskDetailFragment taskDetailFragment = new TaskDetailFragment();
-                taskDetailFragment.setTitle("Edit task");
+                taskDetailFragment.setTitle(getString(R.string.edit_task));
                 taskDetailFragment.setTask(task);
                 taskDetailFragment.setTaskAction(new EditTaskAction());
 
@@ -151,7 +160,6 @@ public class TaskFragment extends Fragment {
         taskAdapter.setTaskTimerListenner(new TaskAdapter.TaskTimerListenner() {
             @Override
             public void onStart(Task task) {
-                Log.d(TaskFragment.class.toString(), "onStart: ");
                 TimerFragment timerFragment = new TimerFragment();
                 TimerCommandEvent event = new TimerCommandEvent(TimerCommand.START_TIMER);
                 EventBus.getDefault().post(event);
@@ -169,7 +177,7 @@ public class TaskFragment extends Fragment {
 
                 AlertDialog dialogBox = new AlertDialog.Builder(getContext())
                         //set message, title, and icon
-                        .setTitle("Delete")
+                        .setTitle(R.string.delete)
                         .setMessage("Do you want to Delete")
                         .setIcon(R.drawable.ic_delete_black_24px)
 
@@ -187,10 +195,16 @@ public class TaskFragment extends Fragment {
                                                 Log.d(TaskFragment.class.toString(), "delete ! ");
                                                 DbContext.instance.deleteRealm(task);
                                                 downloadTasks();
+                                                Toast.makeText(TaskFragment.this.getContext(),
+                                                        R.string.deleted,Toast.LENGTH_SHORT)
+                                                        .show();
                                             }
 
                                             @Override
                                             public void onFailure(Call<TaskJson> call, Throwable t) {
+                                                Toast.makeText(TaskFragment.this.getContext(),
+                                                        R.string.delete_failed,Toast.LENGTH_SHORT)
+                                                        .show();
 
                                             }
                                         });
