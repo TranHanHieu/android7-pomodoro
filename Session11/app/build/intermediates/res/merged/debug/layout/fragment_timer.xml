@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.hieuit.android7_pomodoro.fragrment.TimerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.hieuit.android7_pomodoro.utils.PoitraitSquareLayout
+            android:id="@+id/ps_timer"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true">
+            <com.github.lzyzsd.circleprogress.DonutProgress
+                android:id="@+id/dp_test"
+                android:layout_margin="6dp"
+                app:donut_max="1000"
+                app:donut_progress="400"
+                android:rotation="270"
+                app:donut_text_color="@color/colorTransparent"
+                android:layout_centerHorizontal="true"
+                android:layout_width="250dp"
+                android:layout_height="250dp" />
+        </com.example.hieuit.android7_pomodoro.utils.PoitraitSquareLayout>
+        <ImageButton
+            android:id="@+id/bt_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ps_timer"
+            app:srcCompat="@drawable/ic_play_circle_outline_black_24px" />
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+#Sat Mar 04 15:55:24 ICT 2017
+base.0=C\:\\Users\\Hieu It\\Documents\\Androi7-LT\\Session10\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0cfe6ffe2876707d37b4ca8fd7abd378b80e6e3e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Hieu It\\Documents\\Androi7-LT\\Session10\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3fc266c5a4cd0df4b2e2e7a18a553c7d87c209dd\\classes.dex
+base.1=C\:\\Users\\Hieu It\\Documents\\Androi7-LT\\Session10\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3fc266c5a4cd0df4b2e2e7a18a553c7d87c209dd
+file.0=C\:\\Users\\Hieu It\\Documents\\Androi7-LT\\Session10\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0cfe6ffe2876707d37b4ca8fd7abd378b80e6e3e\\classes.dex
