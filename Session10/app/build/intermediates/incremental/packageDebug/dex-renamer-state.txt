@@ -1,7 +1,7 @@
-#Thu Mar 02 01:09:12 ICT 2017
-base.0=C\:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session10\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_08ae27820ea2ad9328bbbe95a36e8edb0beaceb1
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session10\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ee8e595d6ad68116d0c8ff8da60dc7954415232a\\classes.dex
-base.1=C\:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session10\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ee8e595d6ad68116d0c8ff8da60dc7954415232a
-file.0=C\:\\Users\\Hieu It\\Documents\\android7-pomodoro\\Session10\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_08ae27820ea2ad9328bbbe95a36e8edb0beaceb1\\classes.dex
+#Fri Mar 03 13:54:44 ICT 2017
+base.0=/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4b72f0ee843318038d0cfaf72f606a9e7c21150a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8060d9002936096e74217b8f0813c0f63dfbad7b/classes.dex
+base.1=/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8060d9002936096e74217b8f0813c0f63dfbad7b
+file.0=/Users/hieutran/android7-pomodoro/Session10/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4b72f0ee843318038d0cfaf72f606a9e7c21150a/classes.dex

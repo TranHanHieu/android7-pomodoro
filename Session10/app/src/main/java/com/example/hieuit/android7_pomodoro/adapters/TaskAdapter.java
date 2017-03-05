@@ -62,7 +62,6 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskViewHolder>{
     public void onBindViewHolder(TaskViewHolder holder, final int position) {
 
         //1. get data bases on position
-        Log.d(TaskAdapter.class.toString(), String.format("onBindViewHolder: %s", position));
         final Task task = DbContext.instance.allTasks().get(position);
         //2.  Bind data into view
         holder.bind(task);
