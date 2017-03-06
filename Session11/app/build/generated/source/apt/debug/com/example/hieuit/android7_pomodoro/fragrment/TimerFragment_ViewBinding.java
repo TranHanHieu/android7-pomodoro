@@ -8,6 +8,7 @@ import android.widget.ImageButton;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.example.hieuit.android7_pomodoro.R;
+import com.github.lzyzsd.circleprogress.DonutProgress;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
@@ -18,7 +19,9 @@ public class TimerFragment_ViewBinding implements Unbinder {
   public TimerFragment_ViewBinding(TimerFragment target, View source) {
     this.target = target;
 
-    target.btStartTimer = Utils.findRequiredViewAsType(source, R.id.bt_start, "field 'btStartTimer'", ImageButton.class);
+    target.ibResume = Utils.findRequiredViewAsType(source, R.id.bt_resume, "field 'ibResume'", ImageButton.class);
+    target.ibStop = Utils.findRequiredViewAsType(source, R.id.bt_stop, "field 'ibStop'", ImageButton.class);
+    target.dpTimer = Utils.findRequiredViewAsType(source, R.id.dp_timer, "field 'dpTimer'", DonutProgress.class);
   }
 
   @Override
@@ -28,6 +31,8 @@ public class TimerFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.btStartTimer = null;
+    target.ibResume = null;
+    target.ibStop = null;
+    target.dpTimer = null;
   }
 }

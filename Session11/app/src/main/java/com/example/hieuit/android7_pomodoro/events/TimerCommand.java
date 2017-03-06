@@ -6,5 +6,6 @@ package com.example.hieuit.android7_pomodoro.events;
 
 public enum TimerCommand {
     START_TIMER,
+    RESUME_TIMER,
     STOP_TIMER
 }

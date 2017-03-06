@@ -15,7 +15,7 @@
             android:layout_height="250dp"
             android:layout_centerHorizontal="true">
             <com.github.lzyzsd.circleprogress.DonutProgress
-                android:id="@+id/dp_test"
+                android:id="@+id/dp_timer"
                 android:layout_margin="6dp"
                 app:donut_max="1000"
                 app:donut_progress="400"
@@ -25,13 +25,23 @@
                 android:layout_width="250dp"
                 android:layout_height="250dp" />
         </com.example.hieuit.android7_pomodoro.utils.PoitraitSquareLayout>
-        <ImageButton
-            android:id="@+id/bt_start"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_below="@+id/ps_timer"
-            app:srcCompat="@drawable/ic_play_circle_outline_black_24px" />
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/bt_resume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_play_circle_outline_black_24px" />
+            <ImageButton
+                android:id="@+id/bt_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_stop_black_24px" />
+        </LinearLayout>
     </RelativeLayout>
 
 

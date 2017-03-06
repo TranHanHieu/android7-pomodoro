@@ -24,6 +24,11 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+
+        <service
+            android:name="com.example.hieuit.android7_pomodoro.service.PomorodoService"
+            android:exported="false" />
+
         <activity
             android:name="com.example.hieuit.android7_pomodoro.activitys.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" >
