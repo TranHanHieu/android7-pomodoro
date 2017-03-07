@@ -17,10 +17,9 @@
             <com.github.lzyzsd.circleprogress.DonutProgress
                 android:id="@+id/dp_timer"
                 android:layout_margin="6dp"
-                app:donut_max="1000"
-                app:donut_progress="400"
-                android:rotation="270"
-                app:donut_text_color="@color/colorTransparent"
+                app:donut_max="100"
+                app:donut_progress="0"
+                app:donut_text="20:00"
                 android:layout_centerHorizontal="true"
                 android:layout_width="250dp"
                 android:layout_height="250dp" />

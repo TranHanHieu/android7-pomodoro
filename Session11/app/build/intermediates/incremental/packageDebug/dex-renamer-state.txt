@@ -1,4 +1,4 @@
-#Tue Mar 07 02:30:18 ICT 2017
+#Tue Mar 07 10:58:43 ICT 2017
 base.0=/Users/hieutran/android7-pomodoro/Session11/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_aa997a56397218d5dfdd663e9bbfabd005899a90
 renamed.1=classes.dex
 renamed.0=classes2.dex

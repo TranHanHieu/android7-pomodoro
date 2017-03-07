@@ -14,10 +14,11 @@
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:layout_centerHorizontal="true">
-            <com.github.lzyzsd.circleprogress.DonutProgress
+                <com.github.lzyzsd.circleprogress.DonutProgress
                 android:id="@+id/dp_timer"
                 android:layout_margin="6dp"
                 app:donut_max="100"
+                    app:donut_text="20:00"
                 app:donut_progress="0"
                 android:layout_centerHorizontal="true"
                 android:layout_width="250dp"

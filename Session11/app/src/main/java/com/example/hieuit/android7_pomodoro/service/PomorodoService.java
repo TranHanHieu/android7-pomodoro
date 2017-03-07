@@ -21,12 +21,11 @@ import org.greenrobot.eventbus.Subscribe;
 public class PomorodoService extends Service {
 
     private CountDownTimer countDownTimer;
+
     @Override
     public void onCreate() {
         super.onCreate();
         EventBus.getDefault().register(this);
-
-
 
     }
 
